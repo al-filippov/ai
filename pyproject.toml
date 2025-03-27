@@ -1,18 +1,25 @@
-[tool.poetry]
+[project]
 name = "ai"
 version = "1.0.0"
 description = "AI Interpretation Examples"
-authors = ["Aleksey Filippov <al.filippov@ulstu.ru>"]
+authors = [
+    {name = "Aleksey Filippov", email = "al.filippov@ulstu.ru"}
+]
 readme = "readme.md"
+requires-python = ">=3.11,<3.12"
+
+[tool.poetry]
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.12"
 jupyter = "^1.1.1"
 numpy = "^1.26.4"
-pandas = "^2.2.2"
+pandas = "^1.5.3"
 scikit-learn = "^1.6.1"
 matplotlib= "^3.10.1"
+machine-learning-datasets = "^0.1.23"
+statsmodels = "^0.14.4"
+mlxtend = "^0.23.4"
 
 [build-system]
 requires = ["poetry-core"]
