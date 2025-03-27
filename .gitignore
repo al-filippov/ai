@@ -275,4 +275,5 @@ cython_debug/
 # JS
 node_modules/
 
-test.csv
+data/aa-domestic-delays-2018.csv.zip
+data/aa-domestic-delays-2018.csv/
